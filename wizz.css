@@ -1,0 +1,169 @@
+/* WIZZ.CCS 
+==================
+A Bullgit project
+==================
+2013 @LukyVj    */
+   
+*:nth-child(even){
+-webkit-animation:wizz .6s ease infinite;
+   -moz-animation:wizz .6s ease infinite;
+    -ms-animation:wizz .6s ease infinite;
+     -o-animation:wizz .6s ease infinite;
+        animation:wizz .6s ease infinite;
+}
+*:nth-child(odd){
+-webkit-animation:wizz .6s ease infinite reverse;
+   -moz-animation:wizz .6s ease infinite reverse;
+    -ms-animation:wizz .6s ease infinite reverse;
+     -o-animation:wizz .6s ease infinite reverse;
+        animation:wizz .6s ease infinite reverse;
+}
+
+@keyframes "wizz" {
+ 23% {
+    -webkit-transform: translateX(10px);
+   	-moz-transform: translateX(10px);
+   	-o-transform: translateX(10px);
+   	-ms-transform: translateX(10px);
+   	transform: translateX(10px);
+ }
+ 26% {
+    -webkit-transform: translateX(-10px);
+   	-moz-transform: translateX(-10px);
+   	-o-transform: translateX(-10px);
+   	-ms-transform: translateX(-10px);
+   	transform: translateX(-10px);
+ }
+ 43% {
+    -webkit-transform: translateX(60px);
+   	-moz-transform: translateX(60px);
+   	-o-transform: translateX(60px);
+   	-ms-transform: translateX(60px);
+   	transform: translateX(60px);
+ }
+ 46% {
+    -webkit-transform: translateX(-60px);
+   	-moz-transform: translateX(-60px);
+   	-o-transform: translateX(-60px);
+   	-ms-transform: translateX(-60px);
+   	transform: translateX(-60px);
+ }
+ 63% {
+    -webkit-transform: translateX(0px);
+   	-moz-transform: translateX(0px);
+   	-o-transform: translateX(0px);
+   	-ms-transform: translateX(0px);
+   	transform: translateX(0px);
+ }
+ 100% {
+    -webkit-transform: translateX(0px);
+   	-moz-transform: translateX(0px);
+   	-o-transform: translateX(0px);
+   	-ms-transform: translateX(0px);
+   	transform: translateX(0px);
+ }
+}
+@-moz-keyframes wizz {
+ 23% {
+   -moz-transform: translateX(10px);
+   transform: translateX(10px);
+ }
+ 26% {
+   -moz-transform: translateX(-10px);
+   transform: translateX(-10px);
+ }
+ 43% {
+   -moz-transform: translateX(60px);
+   transform: translateX(60px);
+ }
+ 46% {
+   -moz-transform: translateX(-60px);
+   transform: translateX(-60px);
+ }
+ 63% {
+   -moz-transform: translateX(0px);
+   transform: translateX(0px);
+ }
+ 100% {
+   -moz-transform: translateX(0px);
+   transform: translateX(0px);
+ }
+}
+@-webkit-keyframes "wizz" {
+ 23% {
+   -webkit-transform: translateX(10px);
+   transform: translateX(10px);
+ }
+ 26% {
+   -webkit-transform: translateX(-10px);
+   transform: translateX(-10px);
+ }
+ 43% {
+   -webkit-transform: translateX(60px);
+   transform: translateX(60px);
+ }
+ 46% {
+   -webkit-transform: translateX(-60px);
+   transform: translateX(-60px);
+ }
+ 63% {
+   -webkit-transform: translateX(0px);
+   transform: translateX(0px);
+ }
+ 100% {
+   -webkit-transform: translateX(0px);
+   transform: translateX(0px);
+ }
+}
+@-ms-keyframes "wizz" {
+ 23% {
+   -ms-transform: translateX(10px);
+   transform: translateX(10px);
+ }
+ 26% {
+   -ms-transform: translateX(-10px);
+   transform: translateX(-10px);
+ }
+ 43% {
+   -ms-transform: translateX(60px);
+   transform: translateX(60px);
+ }
+ 46% {
+   -ms-transform: translateX(-60px);
+   transform: translateX(-60px);
+ }
+ 63% {
+   -ms-transform: translateX(0px);
+   transform: translateX(0px);
+ }
+ 100% {
+   -ms-transform: translateX(0px);
+   transform: translateX(0px);
+ }
+}
+@-o-keyframes "wizz" {
+ 23% {
+   -o-transform: translateX(10px);
+   transform: translateX(10px);
+ }
+ 26% {
+   -o-transform: translateX(-10px);
+   transform: translateX(-10px);
+ }
+ 43% {
+   -o-transform: translateX(60px);
+   transform: translateX(60px);
+ }
+ 46% {
+   -o-transform: translateX(-60px);
+   transform: translateX(-60px);
+ }
+ 63% {
+   -o-transform: translateX(0px);
+   transform: translateX(0px);
+ }
+ 100% {
+   -o-transform: translateX(0px);
+   transform: translateX(0px);
+ }
+}
